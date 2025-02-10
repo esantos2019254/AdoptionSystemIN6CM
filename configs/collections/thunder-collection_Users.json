@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Users",
+    "collectionId": "37fcd006-6e36-47de-b77d-79079d530de0",
+    "dateExported": "2025-02-10T16:33:34.097Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "601de3db-ecdc-48ce-8284-01acea9f7871",
+            "colId": "37fcd006-6e36-47de-b77d-79079d530de0",
+            "containerId": "",
+            "name": "getUsers",
+            "url": "http://localhost:3000/adoptionSystem/v1/users?limite=10&desde=0",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-02-05T22:43:57.388Z",
+            "modified": "2025-02-05T22:43:57.388Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "limite",
+                    "value": "10",
+                    "isPath": false
+                },
+                {
+                    "name": "desde",
+                    "value": "0",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "b226e546-8760-43a9-922c-59c83a457f1c",
+            "colId": "37fcd006-6e36-47de-b77d-79079d530de0",
+            "containerId": "",
+            "name": "getUserById",
+            "url": "http://localhost:3000/adoptionSystem/v1/users/findUser/67a27d3aa38c19ff6d48a1cc",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-02-05T22:43:57.390Z",
+            "modified": "2025-02-05T22:43:57.390Z",
+            "headers": []
+        },
+        {
+            "_id": "bfa218c1-de8c-4f5f-9a3d-e997339cbc61",
+            "colId": "37fcd006-6e36-47de-b77d-79079d530de0",
+            "containerId": "",
+            "name": "putUser",
+            "url": "http://localhost:3000/adoptionSystem/v1/users/67a27d3aa38c19ff6d48a1cc",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2025-02-05T22:43:57.392Z",
+            "modified": "2025-02-05T22:43:57.392Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Felipe\",\n  \"surname\": \"Guitierrez\",\n  \"username\": \"fguitierrez\",\n  \"email\": \"fguitierrez@gmail.com\",\n  \"password\": \"123456789\",\n  \"profilePicture\": \"\",\n  \"phone\": \"34513452\",\n  \"role\": \"ADMIN_ROLE\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "9280d52c-7452-4397-afe1-9879d2b81219",
+            "colId": "37fcd006-6e36-47de-b77d-79079d530de0",
+            "containerId": "",
+            "name": "deleteUser",
+            "url": "http://localhost:3000/adoptionSystem/v1/users/67a27d3aa38c19ff6d48a1cc",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2025-02-05T22:43:57.393Z",
+            "modified": "2025-02-10T15:23:42.809Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2ExM2IzYTAzMTNkN2E4OTNiODFjNjEiLCJpYXQiOjE3MzkyMDEwMTAsImV4cCI6MTczOTIwNDYxMH0.0K7maclwZGqKSd5zaDidqj0_1xqr8VBRLusFuPwlQWQ"
+                }
+            ]
+        }
+    ],
+    "ref": "zCs4kyGzc-Gkb63ExUv_5meM8VYSXNEryBFjQwM4WVMaewznvvDmHRqQdIvzJOXazj_aMarEJCy1U5aOVOmkuQ"
+}
